@@ -19,17 +19,17 @@
 
 ---
 
+## 구성
+- `train.py`: 증강 데이터로 모델 학습
+- `classify.py`: test 폴더 내 이미지 예측 후 결과 저장
+- `models/`: 학습된 PyTorch 모델 (.pth)
+- `test/`: 테스트용 이미지
+- `result/`: 예측된 결과 이미지
+
+---
+
 ## 🧪 예측 실행 방법
 
 ```bash
 python classify.py
 
-
-
-📁 폴더 설명
-폴더/파일	설명
-models/	학습된 모델 파일 (.pth) 저장 위치
-test/	테스트할 이미지들 저장 위치
-result/	예측 결과 이미지가 저장됨 (자동 생성됨)
-classify.py	예측 실행 코드
-train.py (선택)	모델 학습 코드
