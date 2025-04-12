@@ -1,0 +1,23 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook 체크포인트
+*.ipynb_checkpoints/
+
+# PyTorch 모델 파일
+*.pth
+*.pt
+
+# 가상환경 (venv)
+venv/
+.env/
+
+# 결과 이미지 폴더
+result/
+
+# 기타 OS 파일
+.DS_Store
+Thumbs.db
